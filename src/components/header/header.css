@@ -1,0 +1,17 @@
+.header-container {
+	height: 80px;
+	width: 100%;
+	background-color: #D81E5B;
+  transition: height .3s ease-out;
+}
+
+.title {
+	color: white;
+	text-align: center;
+	font-size: 52px;
+}
+
+.header-container:hover {
+  transition: height .1s ease-out;
+  height: 250px;
+}
