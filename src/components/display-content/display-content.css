@@ -10,8 +10,8 @@
 }
 
 .review-tile {
-	width: 380px;
-  height: 420px;
+	width: 300px;
+  height: 340px;
   margin: 15px;
   border-radius: 10px;
   background-color: #C6D8D3;
@@ -20,18 +20,18 @@
 
 .review-image {
   width: auto;
-  height: 320px;
+  height: 260px;
 }
 
 .review-title {
   font-family: 'Quicksand', sans-serif;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .review-summary {
-  font-size: 12px;
+  font-size: 10px;
 }
 
 .review-text {
-  padding: 10px;
+  padding: 5px;
 }
