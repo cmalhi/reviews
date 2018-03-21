@@ -1,5 +1,37 @@
 .nav-container {
-	color: white;
-	display: flex;
-	flex-direction: column;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.header-container {
+  height: 80px;
+  width: 100%;
+  background-color: #EB5E55;
+  transition: height .3s ease-out;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 52px;
+}
+
+.header-container:hover {
+  transition: height .1s ease-out;
+  height: 250px;
 }
