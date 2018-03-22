@@ -9,13 +9,13 @@ import { NavLink } from 'react-router-dom';
 
 
 const Nav = () => (
-  <div className="header-container">
-    <div className="title">Real Reviews</div>
+  <div className="nav-container">
+    <div className="nav-title">Fitrous</div>
     <nav>
-      <ul>
-        <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='/about'>About</NavLink></li>
-        <li><NavLink to='/contact'>Contact</NavLink></li>
+      <ul className="nav-list">
+        <li className="nav-li"><NavLink to='/'>Home</NavLink></li>
+        <li className="nav-li"><NavLink to='/about'>About</NavLink></li>
+        <li className="nav-li"><NavLink to='/contact'>Contact</NavLink></li>
       </ul>
     </nav>
   </div>

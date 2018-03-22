@@ -10,8 +10,29 @@
 .expectations {
   font-family: 'Open Sans', sans-serif;
   background-color: white;
-  height: 700px;
-  width: 700px;
-  padding: 40px;
+  width: 600px;
+  padding: 50px;
   border-radius: 10px;
+}
+
+.content-title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.75em;
+  padding-bottom: 20px;
+}
+
+.content-sub-heading {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.35em;
+  padding-bottom: 10px;
+}
+
+.content-text {
+  padding-bottom: 10px;
+}
+
+.content-title-image {
+  display: inline;
+  width: 310px;
+  height: 280px;
 }

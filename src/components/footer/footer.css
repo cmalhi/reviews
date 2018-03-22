@@ -1,5 +1,10 @@
 .footer-container {
-	height: 150px;
-	width: 100%;
-	background-color: #D81E5B;
+  height: 150px;
+  width: 100%;
+  background-color: #D81E5B;
+}
+
+.footer-content {
+  padding: 50px;
+  color: white;
 }
